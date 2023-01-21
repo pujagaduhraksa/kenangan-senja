@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenangan Senja</title>
+
+    <!-- My Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,700;0,900;1,400&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="dist/output.css">
+</head>
+
+<body class="">
+    <!-- Header Start -->
+
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+        <div class="container">
+            <div class="flex items-center justify-between">
+                <div class="px-5">
+                    <a href="#home" class="font-bold text-lg text-slate-100 italic">kenangan<span
+                            class="text-kopi font-bold">senja.</span></a>
+                </div>
+                <div class="flex items-center px-4">
+                    <button id="hamburger" name="hamburger" type="button" class="lg:hidden">
+                        <span class="hamburger-line transition duration-300 origin-top-left"></span>
+                        <span class="hamburger-line transition duration-300 "></span>
+                        <span class="hamburger-line transition duration-300 origin-bottom-left"></span>
+                    </button>
+
+                    <nav id="nav-menu"
+                        class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none lg:text-white">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#home"
+                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-kopi">Home</a>
+                            </li>
+                            <li class="group">
+                                <a href="#about"
+                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-kopi">Tentang Kami</a>
+                            </li>
+                            <li class="group">
+                                <a href="#menu"
+                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-kopi">Menu</a>
+                            </li>
+                            <li class="group">
+                                <a href="#kontak"
+                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-kopi">Kontak</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Header End -->
+
+    <!-- Hero Section Start -->
+
+    <section id="home" class="pt-[300px] pb-[200px] bg-hero-section">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16 bg-white bg-opacity-80 rounded-lg">
+                    <h4 class="font-bold text-4xl mb-2 text-kopi ">Mari Nikmati <br>
+                        Secangkir Kopi
+                    </h4>
+                    <p class="font-medium text-md text-secondary md:text-lg">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. In, vero.</p>
+
+                </div>
+                <div class="max-w-xl mx-auto text-center">
+                    <a href="#about" class="font-bold text-sm text-white bg-kopi py-3 px-4 rounded-lg">Baca
+                        Selengkapnya</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hero Section End -->
+
+    <!-- Section About Start -->
+
+    <section id="about" class="pt-36 pb-16">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-bold text-4xl mb-2 text-white "><span class="text-kopi">Tentang</span> Kami
+                    </h4>
+                </div>
+                <div class="flex flex-wrap">
+                    <div class="w-full self-center px-4 lg:w-1/2">
+                        <img src="dist/img/coffee2.jpg" width="400px" height="400px" class="relative max-w-full mx-auto"
+                            alt="Coffee">
+                    </div>
+                    <div class="w-full self-auto px-4 mt-4 lg:w-1/2">
+                        <h2 class="font-bold text-white text-2xl mb-3">Kenapa Memilih Kopi Kami?</h2>
+                        <p class="text-base text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Assumenda autem totam amet, facilis distinctio voluptatum quisquam nulla blanditiis iusto
+                            recusandae similique accusamus? Soluta, rerum libero?</p> <br>
+                        <p class="text-base text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            Corporis accusantium, maiores labore, dicta dignissimos nulla ratione explicabo voluptates
+                            ipsum id saepe veritatis animi est eveniet, nihil consequatur distinctio deleniti quam.
+                            Omnis facere magni exercitationem? Quas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section About End -->
+
+    <script src="dist/js/script.js"></script>
+</body>
+
+</html>
