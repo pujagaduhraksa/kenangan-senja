@@ -15,7 +15,7 @@ module.exports = {
         '2xl' : '1320px',
       },
       backgroundImage: {
-        'hero-section': "url('/hero.jpg')",
+        'hero-section': "url('../hero.jpg')",
       },
     },
   },

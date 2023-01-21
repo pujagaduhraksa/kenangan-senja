@@ -736,7 +736,7 @@ video {
 }
 
 .bg-hero-section {
-  background-image: url('/hero.jpg');
+  background-image: url('../hero.jpg');
 }
 
 .p-3 {
